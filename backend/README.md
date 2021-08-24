@@ -11,7 +11,7 @@ This Repository contains the code for backend task - **Credit Card Validator**.
 
 **Credit Card Validator Service**
 
-The validator services validates the give credit card agains the standard method (starts with & length) along with Luhn Algorithm
+The validator services validates the given credit card against the standard method (startswith & length) along with Luhn Algorithm
 
 | method | path | description | authorization |
 |--|--|--|--|
@@ -19,9 +19,7 @@ The validator services validates the give credit card agains the standard method
 
 # To Run
 
-Please ensure JAVA_HOME and MAVEN path available 
-
-Execute the below command to start the application
+Please ensure JAVA_HOME and MAVEN paths are available and execute the below command to start the application
 
 In Windows
 
@@ -34,9 +32,10 @@ In Linux
 Access the Swagger UI
 
 [http://localhost:9001/swagger-ui.html](http://localhost:9001/swagger-ui.html)
- 
+
+
+If docker installed, application will start in docker container if not will start as java application
+
 ## Configurations
 
 Please refer to application.property file to modify server port if required
-
-If docker installed, application will start in docker container if not will start as java application
