@@ -6,7 +6,7 @@ This Repository contains the code for backend task - **Credit Card Validator**.
 |--|--|
 | Language | Java  |
 | Framework | spring boot |
-| Addition Features | Swagger UI |
+| Addition Features | Swagger UI / Docker |
 
 
 **Credit Card Validator Service**
@@ -39,3 +39,4 @@ Access the Swagger UI
 
 Please refer to application.property file to modify server port if required
 
+If docker installed, application will start in docker container if not will start as java application
